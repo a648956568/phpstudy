@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JavaScript练习</title>
+<script type="text/javascript">
+	// document.write('你好吗？');
+	// var res = window.confirm('确认注册？');
+	// if (res==true){
+	// 	document.write('<h1>正在注册</h1>');
+	// }else{
+	// 	alert('取消注册');
+	// }
+
+	var num = 100;
+	var num1 = 101;
+	var num2 = num + num1;
+	document.write(num2);
+	document.write('<br>')
+
+	var res = "Hello";
+	var res1 = "World!!";
+	var res2 = "This is my first JavaScript练习!"
+	document.write(res2); 
+	document.write('<br>')
+
+	var resulet = false;
+	if(resulet == true ){
+		document.write('Hello World');
+	}else{
+		document.write('Not Hello World!!!')
+	}
+
+
+	document.write('for 循环数组<br>')
+	var list = [1,2,3,4,5,6,7,7,8,9,6,5,4,3,3,2];
+
+	for(var i=0;i<list.length;i++){
+		document.write(list[i]+'<br>');
+	}
+	document.write('<hr>');
+	document.write('<br>');
+	var arr = new Array();
+	arr[0]=111;
+	arr[1]=222;
+	arr[2]=333;
+	arr[3]=444;
+
+	var t =0;
+	document.write('while循环数组<br>');
+	while(t<arr.length){
+		document.write(arr[t]+'<br>');
+		t++;
+	}
+
+</script>
+</head>
+
+<body>
+	<!-- <a href="#" onclick="javascript:alert('你点了我')">1111</a> -->
+</body>
+</html>
